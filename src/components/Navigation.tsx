@@ -6,11 +6,11 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="text-xl font-semibold text-accent">
-            Wellness Kinesiology
+            Kinésiologie Bien-être
           </Link>
           <div className="flex space-x-8">
             <Link to="/" className="text-foreground hover:text-accent transition-colors">
-              Home
+              Accueil
             </Link>
             <Link to="/services" className="text-foreground hover:text-accent transition-colors">
               Services

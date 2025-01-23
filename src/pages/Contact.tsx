@@ -13,8 +13,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message Sent",
-      description: "Thank you for your message. We'll get back to you soon!",
+      title: "Message Envoyé",
+      description: "Merci pour votre message. Nous vous répondrons bientôt !",
     });
     setFormData({ name: "", email: "", message: "" });
   };
@@ -24,11 +24,11 @@ const Contact = () => {
       <Navigation />
       <div className="container mx-auto px-4 pt-24 pb-12">
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8 animate-fadeIn">
-          <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">Contactez-nous</h1>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                Name
+                Nom
               </label>
               <input
                 type="text"
@@ -69,7 +69,7 @@ const Contact = () => {
               type="submit"
               className="w-full bg-accent text-white py-2 px-4 rounded-md hover:bg-accent/90 transition-colors"
             >
-              Send Message
+              Envoyer le Message
             </button>
           </form>
         </div>
